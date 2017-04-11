@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zodiac App</title>
+	<link rel="icon" href="img/favicon.ico">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Play|Yanone+Kaffeesatz" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id="maincontainer">
+		<h2 id="mainheading">Know Something About Zodiac Signs</h2>
+		<p class="paragraph">In Western astrology, astrological signs are the twelve 30° sectors of the ecliptic, starting at the vernal equinox (one of the intersections of the ecliptic with the celestial equator), also known as the First Point of Aries. The order of the astrological signs is Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces.</br>
+
+		The concept of the zodiac originated in Babylonian astrology, and was later influenced by Hellenistic culture. According to astrology, celestial phenomena relate to human activity on the principle of "as above, so below", so that the signs are held to represent characteristic modes of expression.</p><button id="hideButton" class="btn btn-warning" type="button">Learn More</button></br>
+
+
+		<p class="paragraph" id="hiddenParagraph">The twelve sector division of the ecliptic constitutes astrology's primary frame of reference when considering the positions of celestial bodies, from a geocentric point of view, so that we may find, for instance, the Sun in 23° Aries (23° longitude), the Moon in 7° Scorpio (217° longitude), or Jupiter in 29° Pisces (359° longitude). Beyond the celestial bodies, other astrological points that are dependent on geographical location and time (namely, the Ascendant, the Midheaven, the Vertex and the houses' cusps) are also referenced within this ecliptic coordinate system.</br>
+
+		Various approaches to measuring and dividing the sky are currently used by differing systems of astrology, although the tradition of the Zodiac's names and symbols remain consistent. Western astrology measures from Equinox and Solstice points (points relating to equal, longest and shortest days of the tropical year), while Jyotiṣa or Vedic astrology measures along the equatorial plane (sidereal year). Precession results in Western astrology's zodiacal divisions not corresponding in the current era to the constellations that carry similar names, while Jyotiṣa measurements still correspond with the background constellations.</br>
+
+		In Western and Indian astrology, the emphasis is on space, and the movement of the Sun, Moon and planets in the sky through each of the zodiac signs. In Chinese astrology, by contrast, the emphasis is on time, with the zodiac operating on cycles of years, months, and hours of the day. A common feature of all three traditions however, is the significance of the Ascendant — the zodiac sign that is rising (due to the rotation of the earth) on the eastern horizon at the moment of a person's birth.</p> 
+		<h2 id="heading">Know your Zodiac Value:</h2>
+		<div id="form">
+			<input id="zodiacInput" type="text" placeholder="What is your Zodiac Sign?">
+			<button class="btn btn-warning" type="button" onclick="horoscope()">Submit</button>
+		</div>
+		<!-- Javascript result will be displayed here -->
+		<div id="result">
+			<h2 id="yourSign">Your Sign</h2>
+			<img id="icon" src="">
+			<p id="yourHoroscope">Result Here!!!</p>
+		</div>
+		<div id="footer">
+			<p id="footertext">2017 &copy; udhamala.com</p>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

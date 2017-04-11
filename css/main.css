@@ -1,0 +1,88 @@
+/*font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Play', sans-serif;*/
+
+* {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#maincontainer {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../img/background.png");
+	background-repeat: repeat;
+	padding-bottom: 0px;
+}
+#mainheading {
+	font-size: 40px;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+.paragraph {
+	font-size: 20px;
+	margin: 10px;
+}
+#zodiacInput {
+	width: 40%;
+	margin-right: 12px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #630a0a;
+	border-radius: 10px;
+	text-align: center;
+}
+.btn {
+	border-radius: 10px;
+}
+#heading {
+	font-size: 40px;
+	text-align: center;
+
+}
+input:placeholder-shown {
+  font-size: 20px;
+}
+#form {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 0;
+}
+#footer {
+	background-color: #E28767;
+	width: 100%;
+	height: 70px;
+}
+#footertext {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 20px;
+	color: black;
+}
+#hideButton {
+	width: 80px;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+#hiddenParagraph {
+	display: none;
+}
+#result {
+	text-align: center;
+	margin-bottom: 40px;
+	padding-bottom: 30px;
+}
+#yourHoroscope {
+	font-size: 27px;
+}
+@media (max-width: 410px) {
+	#zodiacInput {
+		font-size: 14px;
+   }
+ }
+@media (min-width: 613px) {
+	div#result {
+		height: 192px;
+   }
+ }
